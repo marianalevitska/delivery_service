@@ -46,10 +46,10 @@ const Shops = () => {
   return (
     <>
       {shops.length > 0 && (
-        <>
+        <div className={s.shops}>
           <h2 className={s.title}>Shops</h2>
           {elements}
-        </>
+        </div>
       )}
 
       {isLoading && <Loader />}

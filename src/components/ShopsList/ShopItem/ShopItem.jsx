@@ -11,7 +11,7 @@ const ShopItem = ({ name, avatar, id }) => {
 
   const getActive = id => {
     if (activeId === id) {
-      return s.active;
+      return s.active_seller;
     }
     return s.shopItem;
   };
@@ -25,8 +25,8 @@ const ShopItem = ({ name, avatar, id }) => {
 
   return (
     <div className={getActive(id)} onClick={() => setId(id)}>
-      <img src={avatar} alt={`${name} logo`} className={s.img} />
-      <h3 className={s.title}>{name}</h3>
+      <img src={avatar} alt={`${name} logo`} className={s.img_seller} />
+      <h3 className={s.seller_title}>{name}</h3>
     </div>
   );
 };
