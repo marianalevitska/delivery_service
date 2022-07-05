@@ -48,6 +48,7 @@ const Shops = () => {
       {shops.length > 0 && (
         <div className={s.shops}>
           <h2 className={s.title}>Shops</h2>
+          <h3 className={s.after_title}>We wish you found what you've been looking for</h3>
           {elements}
         </div>
       )}

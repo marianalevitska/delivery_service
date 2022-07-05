@@ -1,5 +1,5 @@
 .productCard {
-    background-color: #9c8b8b;
+    background-color: var(--bg-second-color);
     width: 650px;
     height: 704px;
     width: 100%;
@@ -100,15 +100,16 @@
     left: 140px;
     top: 292px;
     align-self: center;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     text-align: center;
     letter-spacing: 0.03em;
-    border: none;
+    border: 1px solid #040404;
 
 }
 
 .orderBtn:hover,
 .orderBtn:focus {
     background-color: var(--btn-color);
-    color: #ececec;
+    color: var(--white-color);
+    border: none;
 }
