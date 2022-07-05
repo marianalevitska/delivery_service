@@ -12,6 +12,7 @@
   --bgc-auth: #f5f6fb;
   --input-color: #bbbbbb;
   --incorrect-bgc: #d7d7d7;
+  --btn-color: rgb(66, 216, 206);
 }
 
 [data-theme='dark'] {
@@ -25,6 +26,7 @@
   --bgc-auth: #1f2833;
   --input-color: #fff;
   --incorrect-bgc: #412e2e;
+  --btn-color: rgb(66, 216, 206);
 }
 
 *,
