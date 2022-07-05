@@ -1,7 +1,7 @@
 .btn {
   position: absolute;
-  bottom: -39px;
-  left: 20px;
+  bottom: 25px;
+  right: 80px;
   background: var(--btn-gradient);
   border: 2px solid var(--btn-border);
   border-radius: 30px;
@@ -16,6 +16,7 @@
   width: 60px;
   height: 30px;
 }
+
 .icon {
   height: auto;
   transition: all 0.3s linear;
@@ -25,6 +26,7 @@
   transform: translateY(0);
   fill: yellow;
 }
+
 body[data-theme='dark'] .sun {
   transform: translateY(100px);
 }
@@ -33,6 +35,7 @@ body[data-theme='dark'] .sun {
   transform: translateY(-100px);
   fill: orange;
 }
+
 body[data-theme='dark'] .moon {
   transform: translateY(0);
 }
