@@ -6,7 +6,7 @@ function NavMenu() {
   const getActiveLink = ({ isActive }) =>
     isActive ? s.linkActive + ' ' + s.link : s.link;
   return (
-    <>
+    <div className={s.navMenue}>
       <NavLink className={getActiveLink} to="/">
         Home
       </NavLink>
@@ -18,7 +18,7 @@ function NavMenu() {
       <NavLink className={getActiveLink} to="/cart">
         Cart
       </NavLink>
-    </>
+    </div>
   );
 }
 

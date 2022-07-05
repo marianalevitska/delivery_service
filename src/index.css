@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --accent-color: #ff6b09;
+  --accent-color: #85dcb8;
   --bg-color: #02172a;
   --white-color: #ffffff;
   --black-color: #000000;
@@ -13,15 +13,16 @@
   --input-color: #bbbbbb;
   --incorrect-bgc: #d7d7d7;
 }
+
 [data-theme='dark'] {
-  --accent-color: #b04803;
+  --accent-color: #66fcf1;
   --bg-color: #035199;
   --white-color: #000000;
   --black-color: #ffffff;
   --main-bg-color: #121212;
   --btn-gradient: linear-gradient(#091236, #1e215d);
   --btn-border: #6b8096;
-  --bgc-auth: #767070;
+  --bgc-auth: #1f2833;
   --input-color: #fff;
   --incorrect-bgc: #412e2e;
 }
