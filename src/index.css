@@ -13,12 +13,11 @@
   --bgc-auth: #f5f6fb;
   --input-color: #bbbbbb;
   --incorrect-bgc: #d7d7d7;
-  --btn-color: rgb(66, 216, 206);
+  --btn-color: #08755f;
 }
 
 [data-theme='dark'] {
-  --accent-color: #66fcf1;
-  --bg-color: #035199;
+  --accent-color: #08755f;
   --white-color: #000000;
   --black-color: #ffffff;
   --main-bg-color: #121212;
@@ -27,7 +26,7 @@
   --bgc-auth: #1f2833;
   --input-color: #fff;
   --incorrect-bgc: #412e2e;
-  --btn-color: rgb(66, 216, 206);
+  --btn-color: #08755f;
 }
 
 *,
