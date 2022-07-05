@@ -15,17 +15,19 @@ const ProductCard = ({ url, text, name, price }) => {
     price > 0 ? price : Math.floor(Math.random() * (300 - 30 + 1) + 30);
   return (
     <div className={s.productCard}>
-      <img src={url} alt={`Product ${name}`} className={s.img} />
-      <h3 className={s.title}>{name}</h3>
-      <p className={s.text}>{text}</p>
-      <p className={s.price}>{resPrice}</p>
-      <button
-        type="button"
-        className={s.orderBtn}
-        onClick={() => addToCart({ url, text, name, price: resPrice })}
-      >
-        Add to Cart
-      </button>
+      <img src={url} alt={`Product ${name}`} className={s.product_img} />
+      <div className={s.under_product}>
+        <h3 className={s.product_title}>{name}</h3>
+        <p className={s.product_text}>{text}</p>
+        <p className={s.product_price}>{resPrice}</p>
+        <button
+          type="button"
+          className={s.orderBtn}
+          onClick={() => addToCart({ url, text, name, price: resPrice })}
+        >
+          Add to Cart
+        </button>
+      </div>
     </div>
   );
 };

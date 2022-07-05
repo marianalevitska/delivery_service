@@ -6,6 +6,7 @@ import ProductCard from './ProductCard';
 
 import { getShopId } from 'redux/shops/shops-selector';
 import * as api from 'shared/services/shop';
+import s from './products.module.css';
 
 const Products = () => {
   const activeID = useSelector(getShopId, shallowEqual);
@@ -52,12 +53,12 @@ const Products = () => {
   ));
 
   return (
-    <>
+    <div className={s.products_block}>
       {products.length > 0 && elements}
       {!(products.length > 0) && !error && `There is no products to order, yet`}
       {isLoading && <Loader />}
       {error && <div> {`Something went wrong: ${error}`}</div>}
-    </>
+    </div>
   );
 };
 
